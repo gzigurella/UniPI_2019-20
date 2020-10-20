@@ -20,7 +20,7 @@ int main(void){
 
 	/* read matrix values */
 	read_matrix(matrix, R);
-	/* set diagonal values to zero */
+	/* set main diagonal values to zero */
 	diagonal2zero(matrix, R);
 	/* print altered matrix */
 	dumpMatrix(matrix, R);
