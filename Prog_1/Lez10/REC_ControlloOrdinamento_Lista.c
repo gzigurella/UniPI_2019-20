@@ -39,7 +39,6 @@ int main(void){
 }
 
 /* functions body */
-	/* adds a -1 before even elements in the list */
 boolean checkOrder(List * ls){
 	List * head = ls;
 	List * tail = &(*ls)->next;
