@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /* function prototypes */
-int  compare	(const void * a, const void *b);
-int  ordered	(int * a, int a_dim);
+int  compare		(const void * a, const void *b);
+int  ordered		(int * a, int a_dim);
 void merge		(int * c, int * a, int * b, int a_dim, int b_dim);
 void read		(int * a, int a_dim);
 void dump		(int * a, int a_dim);
