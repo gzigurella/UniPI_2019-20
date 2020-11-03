@@ -14,11 +14,11 @@ typedef Node* List;
 /* function prototypes */
 int  RecLength			(List ls, int count);
 void add_end			(List *ls);
-void append				(List *ls, int n);
-void RecStampaInversa	(List ls, int length);
-void check				(int *n);
+void append			(List *ls, int n);
+void RecStampaInversa		(List ls, int length);
+void check			(int *n);
 void delete_mult		(int n, List *ls);
-void delete_elem			(List *ls);
+void delete_elem		(List *ls);
 void freeList			(List ls);
 void RecStampa			(List ls);
 void getOddEeven		(int *dispari, int *pari, List ls);
