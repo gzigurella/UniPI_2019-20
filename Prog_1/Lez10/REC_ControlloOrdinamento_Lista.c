@@ -14,9 +14,9 @@ typedef struct n{
 typedef Node * List;
 
 /* function prototypes */
-List push				(List ls, int n);
+List push			(List ls, int n);
 boolean checkOrder 		(List * ls);
-void dump				(List ls);
+void dump			(List ls);
 void freeList			(List ls);
 
 /* main function */
