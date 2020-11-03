@@ -4,7 +4,7 @@
 /* function prototypes */
 int ** set_matrix		(int r, int c);
 void read_matrix 		(int ** mx, int r, int c);
-void multiply_matrices	(int **A, int **B, int **C, int n, int m, int s);
+void multiply_matrices		(int **A, int **B, int **C, int n, int m, int s);
 void dumpMatrix			(int ** mx, int r, int c);
 void freeMatrix			(int ** mx, int r, int c);
 
