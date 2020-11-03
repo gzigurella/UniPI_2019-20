@@ -12,9 +12,9 @@ typedef struct n{
 typedef Node * List;
 
 /* function prototypes */
-List push				(List ls, int n);
+List push			(List ls, int n);
 void recursiveMinus		(List * ls);
-void dump				(List ls);
+void dump			(List ls);
 void freeList			(List ls);
 
 /* main function */
