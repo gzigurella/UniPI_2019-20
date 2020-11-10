@@ -32,20 +32,17 @@ void printMatrix_trasp(int matrix[][c], size_t rows, size_t cols){
 	size_t i,j;
 	size_t r;
 	int temp=0;
-	STAMPA 'ORDINATA' DELLA MATRICE FINALE
-			/*CALCOLO PRODOTTO MATRICI*/
-
-			/*RIGA MATRICE*/
-			for (i = 0; i < rows; ++i){
-				/*RIGA MATRICE TRASPOSTA*/
-				for (j= 0; j < rows; ++j){
-					/*SCORRIMENTO COLONNE MATRICE NORMALE*/
-					for (r=0; r < cols; ++r){
-						temp+=matrix[i][r] * matrix[j][r]; 
-					}
-					printf("%d ",temp); 
-					temp=0;
-				}
-				puts("");	
+	/*RIGA MATRICE*/
+	for (i = 0; i < rows; ++i){
+		/*RIGA MATRICE TRASPOSTA*/
+		for (j= 0; j < rows; ++j){
+			/*SCORRIMENTO COLONNE MATRICE NORMALE*/
+			for (r=0; r < cols; ++r){
+				temp+=matrix[i][r] * matrix[j][r]; 
 			}
+			printf("%d ",temp); 
+			temp=0;
+		}
+		puts("");	
+	}
 }
