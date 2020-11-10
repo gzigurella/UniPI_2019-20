@@ -19,7 +19,7 @@ int main(){
 	}
 	
 	printMatrix_trasp(matrix, r,c);
-
+	return 0;
 }
 
 size_t get_int(){
