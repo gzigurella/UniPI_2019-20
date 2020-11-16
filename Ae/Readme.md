@@ -81,3 +81,25 @@
     } while (sorg[i++]);
   }
   ```
+  * **6.33**
+  > Si consideri il seguente frammento di programma in linguaggio C. Tradurre il codice C in linguaggio assembly di ARM.
+  ```
+  // codice C
+   void iniArray(int num) {
+    int i;
+    int array[10];
+    for (i = 0; i < 10; i = i + 1){
+      array[i] = confronta(num, i);
+    }
+    
+    int confronta(int a, int b) {
+      if (sottr(a, b) >= 0)
+        return 1;
+      else
+        return 0;
+    }
+    
+    int sottr(int a, int b) {
+    return a − b;
+    }
+  ```
