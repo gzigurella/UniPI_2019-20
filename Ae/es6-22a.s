@@ -22,5 +22,3 @@ fine:
 	MOV PC, LR	@return main
 	MOV R7, #1	@syscall 1 (exit type)
 	SVC 0
-
-.end
