@@ -14,7 +14,7 @@ loop:
 	BGE fine			@jump to fine
 	STR R0, [R1, R0, LSL #2]	@store arr[i] = i
 	ADD R0, R0, #1			@increase index by 1 the index
-	BL loop			@jump to loop
+	BL loop				@jump to loop
 
 fine:
 	POP {LR}	@take link register from stack
