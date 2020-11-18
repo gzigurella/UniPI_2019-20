@@ -81,6 +81,23 @@
     } while (sorg[i++]);
   }
   ```
+  * **6.30**
+  > Tradurre il seguente linguaggio di alto livello dell'esercizio 6.30
+    
+    ```
+    // codice di alto livello per le funzioni f e g
+     int f(int a, int b) {
+       int j;
+       j = a;
+       return j + a + g(b);
+     }
+     
+     int g(int x) {
+       int k;
+       k = 3;
+       if (x == 0) return 0;
+       else return k + g(x − l);
+     }  ```
   * **6.33**
   > Si consideri il seguente frammento di programma in linguaggio C. Tradurre il codice C in linguaggio assembly di ARM.
   ```
